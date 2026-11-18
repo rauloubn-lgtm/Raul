@@ -291,10 +291,10 @@ def pronunciar(s):
     return s
 
 
-def sintetizar(texto):
+def sintetizar(texto, vel=1.0):
     from piper import SynthesisConfig
     v = voz()
-    cfg = SynthesisConfig(length_scale=0.9, noise_scale=0.6, noise_w_scale=0.8)
+    cfg = SynthesisConfig(length_scale=0.9 / vel, noise_scale=0.6, noise_w_scale=0.8)
     trozos = [c.audio_int16_array for c in v.synthesize(pronunciar(texto), syn_config=cfg)]
     a = np.concatenate(trozos).astype(np.float32) / 32768.0
     sr = v.config.sample_rate
@@ -376,14 +376,14 @@ def whoosh(semilla):
 
 
 # ------------------------------------------------------------------ línea de tiempo
-def construir_linea(video, cache_dir):
+def construir_linea(video, cache_dir, vel=1.0, fin_extra=6.0, pad_ini=0.75):
     os.makedirs(cache_dir, exist_ok=True)
     escenas = []
     t = 0.0
     voz_total = []
     for i, e in enumerate(video["escenas"]):
         ini = t
-        t += 0.75 if i == 0 else 0.45
+        t += pad_ini if i == 0 else 0.45 / vel
         frases = []
         for j, s in enumerate(e["say"]):
             f = os.path.join(cache_dir, f"s{i:02d}_{j:02d}.npy")
@@ -391,13 +391,13 @@ def construir_linea(video, cache_dir):
             if os.path.exists(f) and open(meta).read() == s:
                 a = np.load(f)
             else:
-                a = sintetizar(s); np.save(f, a); open(meta, "w").write(s)
+                a = sintetizar(s, vel); np.save(f, a); open(meta, "w").write(s)
             frases.append(dict(texto=s, t0=t, t1=t + len(a) / SR))
             voz_total.append((t, a))
-            t += len(a) / SR + 0.32
-        t += 0.35
+            t += len(a) / SR + 0.32 / vel
+        t += 0.35 / vel
         if e["type"] == "outro":
-            t += 6.0  # margen para pantalla final de YouTube
+            t += fin_extra  # margen para pantalla final de YouTube
         escenas.append(dict(e, t0=ini, t1=t, frases=frases))
     dur = t + 0.3
     return escenas, voz_total, dur
