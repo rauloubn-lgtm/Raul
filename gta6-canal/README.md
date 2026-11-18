@@ -1,4 +1,4 @@
-# ZONA LEONIDA — canal de GTA 6 listo para el lanzamiento
+# ENJOYESP — canal de GTA 6 listo para el lanzamiento
 
 10 vídeos terminados (guion, voz, gráficos, animación, música y montaje) para el lanzamiento de GTA 6 el **jueves 19 de noviembre de 2026**. Cada carpeta de `salida/` trae todo lo necesario para subirlo:
 

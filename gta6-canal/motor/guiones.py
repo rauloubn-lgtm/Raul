@@ -10,7 +10,7 @@ Datos verificados el 17-nov-2026 (ver README). Lo que no está confirmado
 por Rockstar se dice explícitamente en el guion.
 """
 
-CANAL = "ZONA LEONIDA"
+CANAL = "ENJOYESP"
 
 VIDEOS = [
 # ---------------------------------------------------------------- 01
