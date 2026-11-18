@@ -423,17 +423,6 @@ def portada(video, fondo, cons, esc, marco, ruta):
     img.convert("RGB").save(ruta, optimize=True)
 
 
-if __name__ == "__main__" and "--portadas" not in sys.argv:
-    args = sys.argv[1:]
-    preview = "--preview" in args
-    ids = [a for a in args if not a.startswith("--")]
-    for v in VIDEOS:
-        if ids and v["id"] not in ids: continue
-        print(f"Short {v['id']} – {v['titulo']}", flush=True)
-        out, dur = render_short(v, preview)
-        print(f"  OK {out} ({dur:.1f}s)", flush=True)
-
-
 def _partir(f, frase):
     """Una línea si cabe; si no, dos líneas equilibradas."""
     if texto_ancho(f, frase) <= ANCHO: return [frase]
@@ -492,3 +481,14 @@ if __name__ == "__main__" and "--portadas" in sys.argv:
     for v in VIDEOS:
         portada_diseno(v, os.path.join(SALIDA, f"{v['id']}-{v['slug']}", "portada.png"))
         print("portada", v["id"])
+
+
+if __name__ == "__main__" and "--portadas" not in sys.argv:
+    args = sys.argv[1:]
+    preview = "--preview" in args
+    ids = [a for a in args if not a.startswith("--")]
+    for v in VIDEOS:
+        if ids and v["id"] not in ids: continue
+        print(f"Short {v['id']} – {v['titulo']}", flush=True)
+        out, dur = render_short(v, preview)
+        print(f"  OK {out} ({dur:.1f}s)", flush=True)
