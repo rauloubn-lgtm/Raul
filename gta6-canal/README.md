@@ -61,3 +61,14 @@ python3 motor/render.py --preview 03   # 12 s de prueba
 - Textos, frases de la voz y etiquetas: `motor/guiones.py`
 - Nombre del canal: variable `CANAL` en `motor/guiones.py`
 - Pronunciación de nombres en inglés: lista `PRONUNCIACION`
+
+## Versión Shorts (vertical, voz x1,25)
+
+En `salida-shorts/` están los mismos 10 vídeos en 1080×1920, con la narración a velocidad x1,25 y el diseño rehecho para vertical (respeta las zonas que tapa la interfaz de Shorts). Todos duran menos de 100 s. Cada carpeta trae `short.mp4`, `portada.png`, `subtitulos.srt` y `publicacion.md` (título con #Shorts).
+
+```bash
+python3 motor/render_short.py        # los 10
+python3 motor/render_short.py 05     # solo uno
+```
+
+La velocidad está en `VEL` dentro de `motor/render_short.py`.
