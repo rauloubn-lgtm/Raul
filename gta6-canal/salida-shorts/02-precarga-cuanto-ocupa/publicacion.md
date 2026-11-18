@@ -9,7 +9,7 @@ GTA 6 PRECARGA: cuánto ocupa y cómo dejarlo listo en PS5 y Xbox #Shorts
 ```
 Si quieres jugar a GTA 6 el jueves a las doce en punto, hay algo que tienes que hacer antes: la precarga. Te cuento cuánto ocupa, cómo activarla en PS5 y en Xbox, y qué hacer si no te cabe.
 
-🔔 Suscríbete a ZONA LEONIDA: guías, noticias y secretos de GTA 6 desde el día 1.
+🔔 Suscríbete a ENJOYESP: guías, noticias y secretos de GTA 6 desde el día 1.
 
 Datos verificados el 17/11/2026. Lo no confirmado por Rockstar se indica como rumor o estimación.
 Canal de fans no oficial, sin relación con Rockstar Games ni Take-Two. Música y gráficos originales.

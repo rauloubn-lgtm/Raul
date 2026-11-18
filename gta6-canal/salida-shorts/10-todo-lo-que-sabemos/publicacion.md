@@ -9,7 +9,7 @@ GTA 6: TODO lo que tienes que saber antes de jugar #Shorts
 ```
 Trece años después de GTA cinco, por fin llega el día. Si no has seguido nada, aquí tienes todo lo esencial de GTA 6 en tres minutos.
 
-🔔 Suscríbete a ZONA LEONIDA: guías, noticias y secretos de GTA 6 desde el día 1.
+🔔 Suscríbete a ENJOYESP: guías, noticias y secretos de GTA 6 desde el día 1.
 
 Datos verificados el 17/11/2026. Lo no confirmado por Rockstar se indica como rumor o estimación.
 Canal de fans no oficial, sin relación con Rockstar Games ni Take-Two. Música y gráficos originales.

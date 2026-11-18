@@ -9,7 +9,7 @@ El MAPA de GTA 6 explicado: las 6 regiones de Leonida y Vice City #Shorts
 ```
 GTA 6 te lleva a Leonida, la versión de Florida de Rockstar. Antes de perderte el jueves, aquí tienes las seis regiones confirmadas y qué esperar de cada una.
 
-🔔 Suscríbete a ZONA LEONIDA: guías, noticias y secretos de GTA 6 desde el día 1.
+🔔 Suscríbete a ENJOYESP: guías, noticias y secretos de GTA 6 desde el día 1.
 
 Datos verificados el 17/11/2026. Lo no confirmado por Rockstar se indica como rumor o estimación.
 Canal de fans no oficial, sin relación con Rockstar Games ni Take-Two. Música y gráficos originales.

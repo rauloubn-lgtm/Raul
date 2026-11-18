@@ -9,7 +9,7 @@ Cómo GANAR DINERO con GTA 6 haciendo CLIPS #Shorts
 ```
 Las búsquedas de clipping de GTA 6 se han multiplicado por más de diez en el último mes. Si quieres aprovechar el lanzamiento para crecer como creador, esta es la guía realista para empezar el primer día.
 
-🔔 Suscríbete a ZONA LEONIDA: guías, noticias y secretos de GTA 6 desde el día 1.
+🔔 Suscríbete a ENJOYESP: guías, noticias y secretos de GTA 6 desde el día 1.
 
 Datos verificados el 17/11/2026. Lo no confirmado por Rockstar se indica como rumor o estimación.
 Canal de fans no oficial, sin relación con Rockstar Games ni Take-Two. Música y gráficos originales.

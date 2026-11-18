@@ -9,7 +9,7 @@ GTA 6 en PC: ¿CUÁNDO SALE? Lo que se sabe de verdad #Shorts
 ```
 GTA 6 sale el jueves… pero no en PC. Si juegas en ordenador, esto es todo lo que se sabe de verdad, separando lo confirmado de lo que es rumor.
 
-🔔 Suscríbete a ZONA LEONIDA: guías, noticias y secretos de GTA 6 desde el día 1.
+🔔 Suscríbete a ENJOYESP: guías, noticias y secretos de GTA 6 desde el día 1.
 
 Datos verificados el 17/11/2026. Lo no confirmado por Rockstar se indica como rumor o estimación.
 Canal de fans no oficial, sin relación con Rockstar Games ni Take-Two. Música y gráficos originales.

@@ -9,7 +9,7 @@ GTA 6: 8 cosas que DEBES hacer en tu PRIMERA HORA #Shorts
 ```
 Vas a encender GTA 6 por primera vez. Antes de lanzarte a la calle, ocho cosas que te van a hacer disfrutar mucho más la primera hora.
 
-🔔 Suscríbete a ZONA LEONIDA: guías, noticias y secretos de GTA 6 desde el día 1.
+🔔 Suscríbete a ENJOYESP: guías, noticias y secretos de GTA 6 desde el día 1.
 
 Datos verificados el 17/11/2026. Lo no confirmado por Rockstar se indica como rumor o estimación.
 Canal de fans no oficial, sin relación con Rockstar Games ni Take-Two. Música y gráficos originales.
