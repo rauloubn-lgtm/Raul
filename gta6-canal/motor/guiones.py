@@ -106,7 +106,7 @@ VIDEOS = [
  "id": "03",
  "slug": "que-edicion-comprar",
  "titulo": "¿Qué EDICIÓN de GTA 6 comprar? Estándar vs Ultimate: precio, bonus y si merece la pena",
- "mini": ["¿79 € O 99 €?", "NO TE EQUIVOQUES"],
+ "mini": ["¿79 € o 99 €?", "NO TE EQUIVOQUES"],
  "mini_tag": "EDICIONES",
  "paleta": "gold",
  "tags": ["gta 6 precio", "gta 6 ultimate edition", "gta 6 ediciones", "gta 6 reserva", "gta 6 bonus reserva", "gta 6 estandar vs ultimate", "comprar gta 6 barato", "gta 6 euros"],

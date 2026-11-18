@@ -360,7 +360,7 @@ def render_short(video, preview=False):
     if not preview:
         escribir_srt(escenas, os.path.join(carpeta, "subtitulos.srt"))
         escribir_meta(video, dur, os.path.join(carpeta, "publicacion.md"))
-        portada(video, fondo, construidas[0], escenas[0], marco, os.path.join(carpeta, "portada.png"))
+        portada_diseno(video, os.path.join(carpeta, "portada.png"))
         json.dump(dict(id=video["id"], duracion=round(dur, 2)), open(os.path.join(carpeta, "info.json"), "w"))
     return out, dur
 
@@ -425,7 +425,7 @@ def portada(video, fondo, cons, esc, marco, ruta):
     img.convert("RGB").save(ruta, optimize=True)
 
 
-if __name__ == "__main__":
+if __name__ == "__main__" and "--portadas" not in sys.argv:
     args = sys.argv[1:]
     preview = "--preview" in args
     ids = [a for a in args if not a.startswith("--")]
@@ -434,3 +434,63 @@ if __name__ == "__main__":
         print(f"Short {v['id']} – {v['titulo']}", flush=True)
         out, dur = render_short(v, preview)
         print(f"  OK {out} ({dur:.1f}s)", flush=True)
+
+
+def _partir(f, frase):
+    """Una línea si cabe; si no, dos líneas equilibradas."""
+    if texto_ancho(f, frase) <= ANCHO: return [frase]
+    w = frase.split(); mejor = None
+    for k in range(1, len(w)):
+        a, b = " ".join(w[:k]), " ".join(w[k:])
+        m = max(texto_ancho(f, a), texto_ancho(f, b))
+        if mejor is None or m < mejor[0]: mejor = (m, [a, b])
+    return mejor[1]
+
+
+def portada_diseno(video, ruta):
+    """Portada vertical 1080x1920 tipo miniatura: texto enorme, etiqueta y marca."""
+    pal = PALETAS[video["paleta"]]
+    img = R.Fondo(pal, int(video["id"]) * 7919).frame(3.0)
+    grad = np.zeros((H, W, 4), np.uint8); grad[..., :3] = (8, 4, 16)
+    grad[..., 3] = np.clip(np.linspace(170, 70, H), 0, 255).astype(np.uint8)[:, None]
+    img.alpha_composite(Image.fromarray(grad, "RGBA"))
+    l1, l2 = video["mini"]
+    tam = 230
+    while True:
+        fa = fuente("anton", tam)
+        a1, a2 = _partir(fa, l1), _partir(fa, l2)
+        alto = 420 + 100 + 40 + (len(a1) + len(a2)) * int(sum(fa.getmetrics()) * 0.9) + 50 + 170
+        if max(texto_ancho(fa, x) for x in a1 + a2) <= ANCHO and len(a1) + len(a2) <= 4 and alto <= 1480: break
+        tam -= 8
+    lh = int(sum(fa.getmetrics()) * 0.9)
+    # marca del canal
+    fm = fuente("anton", 64); mw = texto_ancho(fm, CANAL)
+    marca = caja(mw + 80, 100, r=20, fill=(10, 6, 20, 220))
+    dm = ImageDraw.Draw(marca); dm.rectangle((0, 0, 12, 100), fill=pal["acc"]); dm.text((44, 8), CANAL, font=fm, fill=WHITE)
+    img.alpha_composite(marca, ((W - marca.width) // 2, 250))
+    c = chip(video["mini_tag"], pal, 52)
+    img.alpha_composite(c, ((W - c.width) // 2, 420))
+    y = 420 + c.height + 40
+    for k, l in enumerate(a1 + a2):
+        if k < len(a1):
+            t = texto_img(l, fa, WHITE, stroke=10, stroke_color=INK)
+            g, p = sombra(t, 20, 220)
+            img.alpha_composite(g, ((W - t.width) // 2 - p, y - p))
+        else:
+            ts_ = texto_img(l, fa, INK, stroke=10, stroke_color=INK)
+            tg = degradado_texto(l, fa, pal["acc2"], pal["acc"])
+            x = (W - ts_.width) // 2
+            img.alpha_composite(ts_, (x, y)); img.alpha_composite(tg, (x + 10, y + 10))
+        y += lh
+    fb = fuente("anton", 110); bw = texto_ancho(fb, "GTA VI") + 80
+    badge = caja(bw, 170, r=26, fill=pal["acc"] + (255,))
+    ImageDraw.Draw(badge).text((40, 12), "GTA VI", font=fb, fill=INK)
+    b, pb = sombra(badge, 16)
+    img.alpha_composite(b, ((W - bw) // 2 - pb, y + 50 - pb))
+    img.convert("RGB").save(ruta, optimize=True)
+
+
+if __name__ == "__main__" and "--portadas" in sys.argv:
+    for v in VIDEOS:
+        portada_diseno(v, os.path.join(SALIDA, f"{v['id']}-{v['slug']}", "portada.png"))
+        print("portada", v["id"])
