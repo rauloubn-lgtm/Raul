@@ -56,7 +56,7 @@ VIDEOS = [
            "Deja libres unos doscientos treinta gigas para ir sobrado.",
            "Y deja la consola en reposo con las descargas activadas, para que el parche de lanzamiento entre solo."]},
   {"type": "outro", "say": ["Si te ha servido, suscríbete, porque el jueves subimos guías desde el minuto uno.",
-                           "Y dime en comentarios desde qué país vas a jugar. Nos vemos en Leonida."]},
+                           "Y dime en comentarios desde qué país vas a jugar."]},
  ]},
 # ---------------------------------------------------------------- 02
 {
@@ -99,7 +99,7 @@ VIDEOS = [
            "Seguramente habrá parche de lanzamiento, así que deja algo de espacio de margen.",
            "Y si compras la edición física, ten en cuenta que en muchas tiendas es un código dentro de la caja, sin disco: tendrás que descargarlo igual."]},
   {"type": "outro", "say": ["Suscríbete para no perderte nada del lanzamiento.",
-                           "Y cuéntame: ¿cuántos gigas te quedan libres ahora mismo? Nos vemos en Leonida."]},
+                           "Y cuéntame: ¿cuántos gigas te quedan libres ahora mismo?"]},
  ]},
 # ---------------------------------------------------------------- 03
 {
@@ -138,7 +138,7 @@ VIDEOS = [
            "Si vas a pasar cientos de horas en el online, espera a que se detalle bien qué da la Ultimate, porque aún hay versiones distintas sobre si el contenido llega todo el primer día.",
            "Y tranquilo: si empiezas con la estándar, puedes mejorarla después. En Xbox la mejora aparece listada a veinte dólares."]},
   {"type": "outro", "say": ["¿Tú cuál has pillado? Te leo en comentarios.",
-                           "Y suscríbete, que el jueves empezamos con las guías. Nos vemos en Leonida."]},
+                           "Y suscríbete, que el jueves empezamos con las guías."]},
  ]},
 # ---------------------------------------------------------------- 04
 {
@@ -177,7 +177,7 @@ VIDEOS = [
            "El juego en la nube solo valdrá si GTA seis aparece oficialmente en ese servicio, así que compruébalo antes de pagar nada.",
            "Y muy importante: cualquier descarga de GTA seis para PC que veas estos días es falsa. Son estafas o virus. No piques."]},
   {"type": "outro", "say": ["Cuando Rockstar diga algo de PC, lo tendrás aquí. Suscríbete y activa la campana.",
-                           "¿Te compras consola o esperas? Te leo abajo. Nos vemos en Leonida."]},
+                           "¿Te compras consola o esperas? Te leo abajo."]},
  ]},
 # ---------------------------------------------------------------- 05
 {
@@ -211,7 +211,7 @@ VIDEOS = [
            "Rockstar no ha dado una cifra oficial ni ha publicado un mapa completo.",
            "Las estimaciones de la comunidad hablan de entre una vez y media y el doble que GTA cinco. Cuando lo midamos de verdad, lo verás en este canal."]},
   {"type": "outro", "say": ["¿Qué zona vas a explorar primero? Dímelo en comentarios.",
-                           "Suscríbete, que haremos el mapa completo en cuanto salga. Nos vemos en Leonida."]},
+                           "Suscríbete, que haremos el mapa completo en cuanto salga."]},
  ]},
 # ---------------------------------------------------------------- 06
 {
@@ -246,7 +246,7 @@ VIDEOS = [
            "Vuelve la sátira, ahora de la Florida de los vídeos virales.",
            "Y en consola el objetivo es treinta fotogramas por segundo, igual que GTA cinco en su día."]},
   {"type": "outro", "say": ["¿Cuál de estos cambios te flipa más? Te leo en comentarios.",
-                           "Suscríbete para la comparativa real en cuanto juguemos. Nos vemos en Leonida."]},
+                           "Suscríbete para la comparativa real en cuanto juguemos."]},
  ]},
 # ---------------------------------------------------------------- 07
 {
@@ -281,7 +281,7 @@ VIDEOS = [
            "Si están separados, hay una pequeña transición, como en GTA cinco.",
            "Y hay un sistema de relación entre ellos, que es una de las grandes novedades."]},
   {"type": "outro", "say": ["¿Equipo Jason o equipo Lucía? Vota en los comentarios.",
-                           "Suscríbete, y el jueves vivimos la historia juntos. Nos vemos en Leonida."]},
+                           "Suscríbete, y el jueves vivimos la historia juntos."]},
  ]},
 # ---------------------------------------------------------------- 08
 {
@@ -313,7 +313,7 @@ VIDEOS = [
    "say": ["Y un consejo extra: silencia palabras clave en redes durante los primeros días.",
            "El primer fin de semana va a ser un campo de minas de spoilers."]},
   {"type": "outro", "say": ["¿Qué ajuste cambias siempre lo primero? Te leo abajo.",
-                           "Suscríbete, que vienen guías de dinero, coches y secretos. Nos vemos en Leonida."]},
+                           "Suscríbete, que vienen guías de dinero, coches y secretos."]},
  ]},
 # ---------------------------------------------------------------- 09
 {
@@ -354,7 +354,7 @@ VIDEOS = [
            "Nada de spoilers en las miniaturas: es la forma más rápida de que te odien.",
            "Y no resubas tráilers ni clips de otros: tu propio gameplay y tu comentario son lo que te diferencia."]},
   {"type": "outro", "say": ["¿Vas a crear contenido de GTA seis? Deja tu canal en comentarios y nos apoyamos.",
-                           "Suscríbete para más estrategia. Nos vemos en Leonida."]},
+                           "Suscríbete para más estrategia."]},
  ]},
 # ---------------------------------------------------------------- 10
 {
@@ -393,7 +393,7 @@ VIDEOS = [
            "Muchísimas actividades nuevas.",
            "Y podcasts en el móvil cuando vas a pie."]},
   {"type": "outro", "say": ["Esto es todo lo que necesitas para empezar.",
-                           "Suscríbete, que a partir del jueves vivimos GTA seis cada día. Nos vemos en Leonida."]},
+                           "Suscríbete, que a partir del jueves vivimos GTA seis cada día."]},
  ]},
 ]
 

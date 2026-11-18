@@ -252,8 +252,6 @@ def construir_escena(e, pal):
         lg = texto_img(CANAL, fuente("anton", 130), WHITE)
         g, pad = brillo(lg, pal["acc"], 26, 0.9)
         els.append(Elem(g, (W - g.width) / 2, 450 - pad, t0 + 0.1))
-        sub = texto_img("Nos vemos en Leonida", fuente("interb", 54), (235, 228, 255))
-        els.append(Elem(sub, (W - sub.width) / 2, 640, t0 + 0.35))
 
         def din(lienzo, t):
             if t < t0 + 0.5: return
