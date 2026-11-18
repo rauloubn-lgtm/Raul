@@ -1,6 +1,6 @@
 # Short 09 — listo para subir
 
-**Archivo:** `short.mp4` (1080×1920, 72 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
+**Archivo:** `short.mp4` (1080×1920, 71 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
 
 ## Título
 Cómo GANAR DINERO con GTA 6 haciendo CLIPS #Shorts

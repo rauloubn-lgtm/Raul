@@ -1,6 +1,6 @@
 # Short 06 — listo para subir
 
-**Archivo:** `short.mp4` (1080×1920, 58 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
+**Archivo:** `short.mp4` (1080×1920, 57 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
 
 ## Título
 GTA 5 vs GTA 6: las 7 DIFERENCIAS más grandes #Shorts

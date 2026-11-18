@@ -151,9 +151,9 @@ Cuando Rockstar diga algo de PC,
 lo tendrás aquí. Suscríbete y activa la campana.
 
 39
-00:01:09,035 --> 00:01:10,527
+00:01:09,035 --> 00:01:10,524
 ¿Te compras consola o esperas?
 
 40
-00:01:10,527 --> 00:01:12,261
-Te leo abajo. Nos vemos en Leonida.
+00:01:10,524 --> 00:01:11,196
+Te leo abajo.

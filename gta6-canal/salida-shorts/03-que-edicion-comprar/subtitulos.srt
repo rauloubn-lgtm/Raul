@@ -167,9 +167,5 @@ listada a veinte dólares.
 Te leo en comentarios.
 
 43
-00:01:10,505 --> 00:01:12,452
-Y suscríbete, que el jueves empezamos con las
-
-44
-00:01:12,452 --> 00:01:13,680
-guías. Nos vemos en Leonida.
+00:01:10,505 --> 00:01:12,654
+Y suscríbete, que el jueves empezamos con las guías.

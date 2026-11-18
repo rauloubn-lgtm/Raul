@@ -1,6 +1,6 @@
 # Short 07 — listo para subir
 
-**Archivo:** `short.mp4` (1080×1920, 49 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
+**Archivo:** `short.mp4` (1080×1920, 48 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
 
 ## Título
 ¿Quiénes son JASON y LUCÍA? Los protagonistas de GTA 6 explicados #Shorts

@@ -123,9 +123,5 @@ lo verás en este canal.
 Dímelo en comentarios.
 
 32
-00:00:55,997 --> 00:00:58,090
-Suscríbete, que haremos el mapa completo en cuanto
-
-33
-00:00:58,090 --> 00:00:59,280
-salga. Nos vemos en Leonida.
+00:00:55,997 --> 00:00:58,241
+Suscríbete, que haremos el mapa completo en cuanto salga.

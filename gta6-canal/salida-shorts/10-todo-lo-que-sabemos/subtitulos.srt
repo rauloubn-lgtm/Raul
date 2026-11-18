@@ -111,9 +111,9 @@ Y podcasts en el móvil cuando vas a pie.
 Esto es todo lo que necesitas para empezar.
 
 29
-00:00:50,260 --> 00:00:52,279
+00:00:50,260 --> 00:00:52,253
 Suscríbete, que a partir del jueves vivimos GTA
 
 30
-00:00:52,279 --> 00:00:53,835
-seis cada día. Nos vemos en Leonida.
+00:00:52,253 --> 00:00:52,875
+seis cada día.

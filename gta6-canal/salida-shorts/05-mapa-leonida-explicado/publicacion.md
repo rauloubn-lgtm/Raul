@@ -1,6 +1,6 @@
 # Short 05 — listo para subir
 
-**Archivo:** `short.mp4` (1080×1920, 60 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
+**Archivo:** `short.mp4` (1080×1920, 59 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
 
 ## Título
 El MAPA de GTA 6 explicado: las 6 regiones de Leonida y Vice City #Shorts

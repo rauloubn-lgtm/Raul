@@ -1,6 +1,6 @@
 # Short 04 — listo para subir
 
-**Archivo:** `short.mp4` (1080×1920, 73 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
+**Archivo:** `short.mp4` (1080×1920, 72 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
 
 ## Título
 GTA 6 en PC: ¿CUÁNDO SALE? Lo que se sabe de verdad #Shorts

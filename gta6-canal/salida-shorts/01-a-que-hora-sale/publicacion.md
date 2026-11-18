@@ -1,6 +1,6 @@
 # Short 01 — listo para subir
 
-**Archivo:** `short.mp4` (1080×1920, 98 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
+**Archivo:** `short.mp4` (1080×1920, 97 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
 
 ## Título
 GTA 6: A QUÉ HORA SALE en España y Latinoamérica #Shorts

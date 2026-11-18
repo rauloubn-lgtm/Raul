@@ -1,6 +1,6 @@
 # Short 02 — listo para subir
 
-**Archivo:** `short.mp4` (1080×1920, 90 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
+**Archivo:** `short.mp4` (1080×1920, 89 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
 
 ## Título
 GTA 6 PRECARGA: cuánto ocupa y cómo dejarlo listo en PS5 y Xbox #Shorts

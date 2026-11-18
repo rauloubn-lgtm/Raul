@@ -191,9 +191,5 @@ sin disco: tendrás que descargarlo igual.
 Suscríbete para no perderte nada del lanzamiento.
 
 49
-00:01:25,469 --> 00:01:27,736
-Y cuéntame: ¿cuántos gigas te quedan libres ahora
-
-50
-00:01:27,736 --> 00:01:29,050
-mismo? Nos vemos en Leonida.
+00:01:25,469 --> 00:01:27,960
+Y cuéntame: ¿cuántos gigas te quedan libres ahora mismo?

@@ -1,6 +1,6 @@
 # Short 08 — listo para subir
 
-**Archivo:** `short.mp4` (1080×1920, 57 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
+**Archivo:** `short.mp4` (1080×1920, 56 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
 
 ## Título
 GTA 6: 8 cosas que DEBES hacer en tu PRIMERA HORA #Shorts

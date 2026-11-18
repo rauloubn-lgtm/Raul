@@ -1,6 +1,6 @@
 # Short 03 — listo para subir
 
-**Archivo:** `short.mp4` (1080×1920, 75 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
+**Archivo:** `short.mp4` (1080×1920, 74 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
 
 ## Título
 ¿Qué EDICIÓN de GTA 6 comprar? Estándar vs Ultimate #Shorts

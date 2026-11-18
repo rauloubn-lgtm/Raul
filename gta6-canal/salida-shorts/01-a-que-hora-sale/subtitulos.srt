@@ -203,9 +203,5 @@ Si te ha servido,
 suscríbete, porque el jueves subimos guías desde el minuto uno.
 
 52
-00:01:34,049 --> 00:01:35,807
-Y dime en comentarios desde qué país vas
-
-53
-00:01:35,807 --> 00:01:37,137
-a jugar. Nos vemos en Leonida.
+00:01:34,049 --> 00:01:36,092
+Y dime en comentarios desde qué país vas a jugar.

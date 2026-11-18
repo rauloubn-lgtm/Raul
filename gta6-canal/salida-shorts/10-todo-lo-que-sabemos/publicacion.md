@@ -1,6 +1,6 @@
 # Short 10 — listo para subir
 
-**Archivo:** `short.mp4` (1080×1920, 55 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
+**Archivo:** `short.mp4` (1080×1920, 54 s, voz a x1,25) · **Portada:** `portada.png` · **Subtítulos:** `subtitulos.srt`
 
 ## Título
 GTA 6: TODO lo que tienes que saber antes de jugar #Shorts
