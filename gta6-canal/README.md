@@ -72,3 +72,11 @@ python3 motor/render_short.py 05     # solo uno
 ```
 
 La velocidad está en `VEL` dentro de `motor/render_short.py`.
+
+## Lote 2 — después del lanzamiento (Shorts 11–25)
+
+Guiones en `motor/guiones_post.py`, datos comprobados el 20/11/2026: notas (Metacritic/OpenCritic), duración, comparativa de Digital Foundry, guías de lanzamiento (coches, dinero, policía, guardado), estado del online y del PC, primeros easter eggs. Lo que viene de una sola fuente o de jugadores se dice como tal.
+
+```bash
+python3 motor/render_short.py 11 12 13   # o sin números para todos
+```
