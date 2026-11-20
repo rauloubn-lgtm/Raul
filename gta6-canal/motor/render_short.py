@@ -217,7 +217,7 @@ def construir_escena(e, pal):
         fh = fuente("anton", 84); ft = fuente("interb", 46)
         lh = envolver(fh, e["head"], ANCHO - 80)
         lt = []
-        for parr in e["text"].split("\n"): lt += envolver(ft, parr, ANCHO - 80)
+        for parr in re.sub(r"(?<![.:!?])\n", " ", e["text"]).split("\n"): lt += envolver(ft, parr, ANCHO - 80)
         hh = int(sum(fh.getmetrics()) * 0.92)
         bh = 200 + len(lh) * hh + 24 + len(lt) * 62 + 40
         box = caja(ANCHO, bh, r=30, fill=(14, 8, 26, 230), borde=pal["acc2"] + (255,), ancho=5)
@@ -291,14 +291,14 @@ def sub_cache(palabras, activa, acc):
     return _subc[k]
 
 
-def capa_marco(pal):
+def capa_marco(pal, tag="GTA VI · 19.11"):
     img = Image.new("RGBA", (W, H), (0, 0, 0, 0))
     d = ImageDraw.Draw(img); f = fuente("anton", 40)
     w = texto_ancho(f, CANAL)
     d.rounded_rectangle((X0, 150, X0 + w + 50, 214), 14, fill=(10, 6, 20, 200))
     d.rectangle((X0, 150, X0 + 10, 214), fill=pal["acc"])
     d.text((X0 + 28, 154), CANAL, font=f, fill=WHITE)
-    tag = "GTA VI · 19.11"; ft = fuente("interx", 28); tw = texto_ancho(ft, tag)
+    ft = fuente("interx", 28); tw = texto_ancho(ft, tag)
     d.rounded_rectangle((W - X0 - tw - 34, 157, W - X0, 207), 25, outline=pal["acc2"], width=3, fill=(10, 6, 20, 160))
     d.text((W - X0 - tw - 17, 166), tag, font=ft, fill=pal["acc2"])
     return img
@@ -326,7 +326,7 @@ def render_short(video, preview=False):
     R.mezclar_audio(escenas, voz_total, dur, pal, sem, audio)
 
     fondo = R.Fondo(pal, sem)
-    marco = capa_marco(pal)
+    marco = capa_marco(pal, "GTA VI · YA DISPONIBLE" if int(video["id"]) > 10 else "GTA VI · 19.11")
     construidas = [construir_escena(e, pal) for e in escenas]
     subs = [s for e in escenas for f in e["frases"] for s in R.trozos_subtitulo(f, 5)]
 

@@ -399,6 +399,10 @@ VIDEOS = [
 
 # Pronunciación para la voz (la pantalla muestra el texto original).
 PRONUNCIACION = [
+    ("Metacritic", "Métacrític"), ("OpenCritic", "Ópen Crític"), ("Ocarina of Time", "Ocarina of Taim"),
+    ("Digital Foundry", "Díyital Fáundri"), ("Pay 'N' Spray", "Pei an Esprei"), ("Buck Me", "Bac Mi"),
+    ("RideMe", "Raid Mi"), ("Key Lento", "Ki Lento"), ("GameSpot", "Géimspot"), ("Twitch", "Tuich"),
+    ("Rob Nelson", "Rob Nélson"), ("Series S", "series ese"), ("Series X", "series equis"),
     ("GTA 6", "ge te a seis"), ("GTA seis", "ge te a seis"), ("GTA cinco", "ge te a cinco"),
     ("GTA plus", "ge te a plus"), ("GTA", "ge te a"),
     ("PS5", "pe ese cinco"), ("Xbox Series", "exbox series"), ("Xbox", "exbox"),
@@ -413,3 +417,6 @@ PRONUNCIACION = [
     ("HDR", "hache de erre"), ("Everglades", "Évergleids"), ("Duval", "Duval"),
     ("streamer", "estrímer"), ("easter eggs", "íster egs"), ("Florida", "Florida"),
 ]
+
+from guiones_post import VIDEOS_POST
+VIDEOS += VIDEOS_POST
