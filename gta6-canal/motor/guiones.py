@@ -402,7 +402,7 @@ PRONUNCIACION = [
     ("Metacritic", "Métacrític"), ("OpenCritic", "Ópen Crític"), ("Ocarina of Time", "Ocarina of Taim"),
     ("Digital Foundry", "Díyital Fáundri"), ("Pay 'N' Spray", "Pei an Esprei"), ("Buck Me", "Bac Mi"),
     ("RideMe", "Raid Mi"), ("Key Lento", "Ki Lento"), ("GameSpot", "Géimspot"), ("Twitch", "Tuich"),
-    ("Rob Nelson", "Rob Nélson"), ("Series S", "series ese"), ("Series X", "series equis"),
+    ("Rob Nelson", "Rob Nélson"), ("Buck", "Bac"), ("Brian", "Bráian"), ("Series S", "series ese"), ("Series X", "series equis"),
     ("GTA 6", "ge te a seis"), ("GTA seis", "ge te a seis"), ("GTA cinco", "ge te a cinco"),
     ("GTA plus", "ge te a plus"), ("GTA", "ge te a"),
     ("PS5", "pe ese cinco"), ("Xbox Series", "exbox series"), ("Xbox", "exbox"),
